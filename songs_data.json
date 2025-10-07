@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Come Together",
+    "artist": "The Beatles",
+    "bpm": "82",
+    "key": "D minor",
+    "year": "1969",
+    "album": "Abbey Road",
+    "genre": "Rock, Blues Rock, Psychedelic Rock",
+    "artist_bio": "The Beatles were an English rock band formed in Liverpool in 1960. The group consisted of John Lennon, Paul McCartney, George Harrison, and Ringo Starr. They are widely regarded as the most influential band in the history of popular music.\n\nThe Beatles revolutionized many aspects of the music industry and were often at the forefront of cultural movements during the 1960s. Their innovative approach to songwriting, recording techniques, and album production set new standards that continue to influence musicians today.\n\nBy 1969, when \"Come Together\" was released, The Beatles were at their creative peak while simultaneously dealing with internal tensions that would eventually lead to their breakup in 1970. Despite these challenges, they continued to produce groundbreaking music that pushed the boundaries of rock and pop.",
+    "song_context": "\"Come Together\" is the opening track on The Beatles' iconic 1969 album \\textit{Abbey Road}, their penultimate studio album. Written primarily by John Lennon, the song was originally conceived as a campaign song for Timothy Leary's California gubernatorial run against Ronald Reagan in 1969.\n\nThe song features one of the most recognizable basslines in rock history, played by Paul McCartney. The groove is built on a swampy, bluesy feel that was somewhat unusual for The Beatles at the time. The cryptic lyrics reference each member of the band in abstract ways, with lines like \"He got toe jam football\" and \"He wear no shoeshine.\"\n\n\\textbf{Cultural Impact:} \"Come Together\" became a Top 10 hit and has been covered by countless artists across multiple genres. Its infectious groove and mysterious lyrics have made it a staple of classic rock radio and a favorite for musicians to reinterpret.\n\n\\textbf{Production Notes:} The track showcases the production genius of The Beatles and George Martin. The distinctive electric piano sound, the tight drums, and the prominent bass create a minimalist but powerful sonic landscape. The \"shoot me\" backing vocals add to the song's mystique.",
+    "key_elements": [
+      "\\textbf{Iconic Bassline:} The sliding, bluesy bass riff is one of the most recognizable in rock history—simple but unforgettable",
+      "\\textbf{The Groove:} Laid-back, swampy feel at 82 BPM creates a hypnotic, almost funky vibe",
+      "\\textbf{Minimal Drums:} Sparse kick and snare pattern lets the bass and vocals breathe",
+      "\\textbf{Electric Piano:} The Fender Rhodes adds texture without cluttering the arrangement",
+      "\\textbf{Space:} What's \\textit{not} played is as important as what is—the song uses silence effectively"
+    ],
+    "learning_points": [
+      "How to create a powerful groove with minimal elements",
+      "The art of the \\purple{bassline}—melodic yet rhythmic",
+      "Working with \\bluepurple{space} in your arrangements",
+      "Building tension and release through dynamics",
+      "Creating a hypnotic loop that keeps listeners engaged"
+    ],
+    "comparables": [
+      {
+        "song": "Chameleon",
+        "artist": "Herbie Hancock",
+        "reason": "Swampy, hypnotic funk bassline with similar laid-back groove"
+      },
+      {
+        "song": "Cissy Strut",
+        "artist": "The Meters",
+        "reason": "New Orleans funk with that dirty, swampy bassline feel"
+      },
+      {
+        "song": "Use Me",
+        "artist": "Bill Withers",
+        "reason": "Bluesy, swampy soul groove with prominent sliding bass"
+      },
+      {
+        "song": "Thank You (Falettinme Be Mice Elf Agin)",
+        "artist": "Sly \\& The Family Stone",
+        "reason": "Funky, swampy bass-driven groove with sparse arrangement"
+      },
+      {
+        "song": "Low Rider",
+        "artist": "War",
+        "reason": "Iconic swampy bassline, Latin funk vibe, similar hypnotic quality"
+      }
+    ]
+  }
+]
+

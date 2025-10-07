@@ -1,0 +1,205 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Packages
+\usepackage[margin=0.85in]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+
+% Font setup
+\setmainfont{ElMessiri-Regular}[
+    Path = ../,
+    Extension = .ttf,
+    BoldFont = ElMessiri-Regular,
+    BoldFeatures = {FakeBold=1.5},
+    Scale=1.0
+]
+
+% Define colors
+\definecolor{purple}{RGB}{138,43,226}
+\definecolor{blue}{RGB}{30,144,255}
+\definecolor{green}{RGB}{34,139,34}
+\definecolor{red}{RGB}{220,20,60}
+\definecolor{orange}{RGB}{255,140,0}
+\definecolor{lightgray}{RGB}{245,245,245}
+\definecolor{darkgray}{RGB}{100,100,100}
+
+% Custom commands for colored text
+\newcommand{\purple}[1]{\textcolor{purple}{\textbf{#1}}}
+\newcommand{\bluepurple}[1]{\textcolor{blue}{\textbf{#1}}}
+\newcommand{\greentext}[1]{\textcolor{green}{\textbf{#1}}}
+\newcommand{\redtext}[1]{\textcolor{red}{\textbf{#1}}}
+\newcommand{\orangetext}[1]{\textcolor{orange}{\textbf{#1}}}
+
+% Header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\small\thepage}
+
+% Title formatting
+\usepackage{titlesec}
+\titleformat{\section}
+  {\LARGE\bfseries\sffamily\color{darkgray}}
+  {}
+  {0em}
+  {}
+  [\vspace{-0.5em}\rule{\textwidth}{0.5pt}]
+\titleformat{\subsection}
+  {\Large\bfseries\sffamily\color{darkgray}}
+  {}
+  {0em}
+  {}
+
+% Better spacing
+\setlength{\parskip}{0.6em}
+\setstretch{1.15}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+% HEADER
+\begin{center}
+{\Huge\bfseries\sffamily Come Together}
+
+\vspace{0.3cm}
+
+{\LARGE by The Beatles}
+
+\vspace{0.5cm}
+
+\begin{tikzpicture}
+    % Decorative music notes
+    \fill[purple] (0,0) circle (0.2cm);
+    \draw[purple, line width=1.5pt] (0.2,0) -- (0.2,1);
+    \fill[blue] (1,0.2) circle (0.2cm);
+    \draw[blue, line width=1.5pt] (1.2,0.2) -- (1.2,1.2);
+    \fill[green] (2,0) circle (0.2cm);
+    \draw[green, line width=1.5pt] (2.2,0) -- (2.2,1);
+\end{tikzpicture}
+
+\vspace{0.5cm}
+
+\rule{0.8\textwidth}{0.5pt}
+\end{center}
+
+\vspace{0.5cm}
+
+% SONG DETAILS BOX
+\begin{tcolorbox}[colback=lightgray,colframe=purple,width=\textwidth,arc=3mm,boxrule=1pt]
+\begin{multicols}{2}
+\textbf{\purple{BPM:}} 82
+
+\textbf{\bluepurple{Key:}} D minor
+
+\textbf{\greentext{Year:}} 1969
+
+\textbf{\orangetext{Album:}} Abbey Road
+
+\textbf{\redtext{Genre:}} Rock, Blues Rock, Psychedelic Rock
+\end{multicols}
+\end{tcolorbox}
+
+\vspace{0.5cm}
+
+% ABOUT THE ARTIST
+\section*{About The Beatles}
+
+The Beatles were an English rock band formed in Liverpool in 1960. The group consisted of John Lennon, Paul McCartney, George Harrison, and Ringo Starr. They are widely regarded as the most influential band in the history of popular music.
+
+The Beatles revolutionized many aspects of the music industry and were often at the forefront of cultural movements during the 1960s. Their innovative approach to songwriting, recording techniques, and album production set new standards that continue to influence musicians today.
+
+By 1969, when "Come Together" was released, The Beatles were at their creative peak while simultaneously dealing with internal tensions that would eventually lead to their breakup in 1970. Despite these challenges, they continued to produce groundbreaking music that pushed the boundaries of rock and pop.
+
+\vspace{0.5cm}
+
+% ABOUT THE SONG
+\section*{About "Come Together"}
+
+"Come Together" is the opening track on The Beatles' iconic 1969 album \textit{Abbey Road}, their penultimate studio album. Written primarily by John Lennon, the song was originally conceived as a campaign song for Timothy Leary's California gubernatorial run against Ronald Reagan in 1969.
+
+The song features one of the most recognizable basslines in rock history, played by Paul McCartney. The groove is built on a swampy, bluesy feel that was somewhat unusual for The Beatles at the time. The cryptic lyrics reference each member of the band in abstract ways, with lines like "He got toe jam football" and "He wear no shoeshine."
+
+\textbf{Cultural Impact:} "Come Together" became a Top 10 hit and has been covered by countless artists across multiple genres. Its infectious groove and mysterious lyrics have made it a staple of classic rock radio and a favorite for musicians to reinterpret.
+
+\textbf{Production Notes:} The track showcases the production genius of The Beatles and George Martin. The distinctive electric piano sound, the tight drums, and the prominent bass create a minimalist but powerful sonic landscape. The "shoot me" backing vocals add to the song's mystique.
+
+\vspace{0.5cm}
+
+% MUSICAL ELEMENTS
+\section*{Key Musical Elements}
+
+\subsection*{What Makes This Beat Special:}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Iconic Bassline:} The sliding, bluesy bass riff is one of the most recognizable in rock history—simple but unforgettable
+\item \textbf{The Groove:} Laid-back, swampy feel at 82 BPM creates a hypnotic, almost funky vibe
+\item \textbf{Minimal Drums:} Sparse kick and snare pattern lets the bass and vocals breathe
+\item \textbf{Electric Piano:} The Fender Rhodes adds texture without cluttering the arrangement
+\item \textbf{Space:} What's \textit{not} played is as important as what is—the song uses silence effectively
+\end{itemize}
+
+\subsection*{What You'll Learn:}
+
+\begin{itemize}[leftmargin=*]
+\item How to create a powerful groove with minimal elements
+\item The art of the \purple{bassline}—melodic yet rhythmic
+\item Working with \bluepurple{space} in your arrangements
+\item Building tension and release through dynamics
+\item Creating a hypnotic loop that keeps listeners engaged
+\end{itemize}
+
+\vspace{0.5cm}
+
+% COMPARABLE SONGS
+\section*{If You Like This, Check Out:}
+
+\begin{tcolorbox}[colback=blue!5,colframe=blue,width=\textwidth,arc=3mm,boxrule=1pt]
+\textbf{Similar Grooves \& Vibes:}
+
+\begin{itemize}[leftmargin=*, itemsep=0.3em]
+\item \textbf{"Chameleon" - Herbie Hancock} \\
+    \textit{Swampy, hypnotic funk bassline with similar laid-back groove}
+\item \textbf{"Cissy Strut" - The Meters} \\
+    \textit{New Orleans funk with that dirty, swampy bassline feel}
+\item \textbf{"Use Me" - Bill Withers} \\
+    \textit{Bluesy, swampy soul groove with prominent sliding bass}
+\item \textbf{"Thank You (Falettinme Be Mice Elf Agin)" - Sly \& The Family Stone} \\
+    \textit{Funky, swampy bass-driven groove with sparse arrangement}
+\item \textbf{"Low Rider" - War} \\
+    \textit{Iconic swampy bassline, Latin funk vibe, similar hypnotic quality}
+\end{itemize}
+\end{tcolorbox}
+
+\vspace{1cm}
+
+% FOOTER
+\begin{center}
+\rule{0.8\textwidth}{0.5pt}
+
+\vspace{0.3cm}
+
+\textbf{Beatmaking: Learn By Doing}
+
+\textit{Learn music through \purple{beats} — A fun, \bluepurple{human} path to modern music making}
+
+\vspace{0.3cm}
+
+\small www.makebeatsanywhere.com | connor@makebeatsanywhere.com | @the\_beat\_machine\_
+
+\vspace{0.3cm}
+
+\rule{0.8\textwidth}{0.5pt}
+\end{center}
+
+\end{document}
