@@ -1,0 +1,45 @@
+# LaTeX build artifacts
+**/_build/
+**/_generated/
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.lof
+*.lot
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional: Uncomment to track final PDFs in version control
+# If you want to keep PDFs out of git, leave these commented
+# packets/**/*.pdf
+# *.pdf
+
