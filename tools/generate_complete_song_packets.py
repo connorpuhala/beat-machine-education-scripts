@@ -94,7 +94,9 @@ TEMPLATE_HEADER = r'''\documentclass[11pt,letterpaper]{article}
 
 \thispagestyle{empty}
 
-% PAGE 1: COVER SHEET
+% PAGE 1: COVER SHEET - VERTICALLY CENTERED
+\vspace*{\fill}
+
 \begin{center}
 {\Huge\bfseries\sffamily {{SONG_TITLE}}}
 
@@ -135,6 +137,8 @@ TEMPLATE_HEADER = r'''\documentclass[11pt,letterpaper]{article}
 \textbf{\redtext{Genre:}} {{SONG_GENRE}}
 \end{multicols}
 \end{tcolorbox}
+
+\vspace*{\fill}
 
 \newpage
 

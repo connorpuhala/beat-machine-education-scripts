@@ -104,6 +104,59 @@
       }
     ],
     "theory_analysis": "\\textbf{Key:} D minor - but forget traditional progressions. This is all about \\purple{the groove}.\n\n\\textbf{The Iconic Bassline:} This is the star of the track. The bass plays a five-note pattern that repeats throughout: \\bluepurple{D - D - G - F - D} (moving between octaves). Here's what makes it special:\n\\begin{itemize}\n\\item Starts on \\textbf{D} (low, the root) - establishes the tonal center\n\\item Repeats \\textbf{D} - locks in that root feel\n\\item Moves to \\textbf{G} (up a 4th, same octave) - adds motion\n\\item Leaps to \\textbf{F} (up a 7th, jumping to the higher octave) - big melodic leap  \n\\item Settles on \\textbf{D} (up to complete the high octave) - brings it home\n\\end{itemize}\nThe genius is in those \\greentext{big intervallic leaps} between registers. It's not smooth and stepwise—it jumps around boldly, creating that distinctive swampy, unpredictable groove. The slides between notes (especially that slide UP from G to F) add the characteristic texture.\n\n\\textbf{The Electric Piano:} Super sparse—just occasional hits. You get a \\textbf{G}, then later \\textbf{C and F} together. These aren't building chords; they're adding texture and color on top of the bass groove. The C-F dyad creates a sus4 sound that floats above without defining traditional harmony.\n\n\\textbf{This is a Vamp, Not a Progression:} \"Come Together\" doesn't use chord changes like I-IV-V. Instead, it's built on a \\orangetext{vamp}—a repeated groove pattern that cycles endlessly. The bass line IS the harmonic foundation. Everything else (drums, keys, vocals) layers on top of that one repeating bass pattern.\n\n\\textbf{The Minimalist Drums:} Just kick and snare, super sparse. This leaves massive space for the bass to be the rhythmic AND harmonic driver. Less is more.\n\n\\textbf{Why This Matters for Production:} You don't need chord progressions to make a great track. One killer bassline that grooves hard, minimal drums, and sparse melodic elements—that's enough. The Beatles prove that \\textit{repetition + groove + space} can be more powerful than complex harmony. Focus on making your bass line so good that it can carry the whole track."
+  },
+  {
+    "title": "Levels",
+    "artist": "Avicii",
+    "bpm": "126",
+    "key": "E major",
+    "year": "2011",
+    "album": "Single",
+    "genre": "Progressive House, EDM, Dance",
+    "artist_bio": "Avicii (Tim Bergling, 1989-2018) was a Swedish DJ, producer, and songwriter who became one of the most influential figures in electronic dance music. He rose to international fame in the early 2010s with a series of hits that brought EDM into the mainstream pop consciousness.\n\nAvicii's production style blended progressive house with pop melodies, folk influences, and country elements, creating a sound that was both club-ready and radio-friendly. His breakthrough came with tracks like \\textit{Levels} (2011) and \\textit{Wake Me Up} (2013), which topped charts worldwide and helped define the sound of EDM in the 2010s.\n\nKnown for his melodic sensibility and ability to craft infectious hooks, Avicii worked with artists across genres and influenced a generation of producers. His legacy includes bringing electronic music to mainstream audiences and proving that dance music could be both commercially successful and artistically innovative. He tragically passed away in 2018, but his music continues to inspire producers worldwide.",
+    "song_context": "\"Levels\" was released in 2011 and became Avicii's breakthrough hit, reaching the top 10 in over 15 countries. The track is built around a sample of Etta James' \"Something's Got a Hold on Me,\" which Avicii transformed into an uplifting, euphoric progressive house anthem.\n\nThe song's iconic piano melody and drop became synonymous with the EDM explosion of the early 2010s. \\textit{Levels} wasn't just a hit—it was a cultural phenomenon that helped bring electronic dance music from underground clubs to mainstream radio and festivals worldwide.\n\n\\textbf{Cultural Impact:} \"Levels\" is widely credited with helping EDM break into the mainstream. The track's structure—building tension with a melodic intro, stripping down to vocals, then dropping into a massive synth hook—became a template that countless producers would follow. The song has been streamed billions of times and remains one of the most recognizable dance tracks of the 2010s.\n\n\\textbf{Production Notes:} The genius of \"Levels\" lies in its simplicity. Avicii used a straightforward four-chord progression, a catchy piano hook, and that iconic vocal sample to create something that feels both familiar and fresh. The sidechain compression (that \"pumping\" effect) on the chords creates the signature EDM groove, while the clean production ensures every element has space to breathe. The track proves that you don't need complexity to create something timeless—just a great melody and solid arrangement.",
+    "key_elements": [
+      "\\textbf{The Piano Hook:} The main melodic riff is instantly recognizable—simple, catchy, and perfectly suited for both radio and the dance floor",
+      "\\textbf{Four-Chord Progression:} Uses the I-V-IV-vi progression (E-B-A-C\\#m) that drives countless pop and EDM hits",
+      "\\textbf{The Vocal Sample:} Etta James' vocal turned into an instrument, chopped and arranged to create momentum",
+      "\\textbf{Sidechain Compression:} That \\textit{pumping} effect where the chords duck with each kick drum hit—signature EDM production",
+      "\\textbf{The Build and Drop:} Classic EDM structure: tension, release, euphoria—a template for the genre"
+    ],
+    "learning_points": [
+      "How to use a simple \\purple{four-chord progression} to maximum effect",
+      "Understanding \\bluepurple{sidechain compression} and the EDM \"pump\" effect",
+      "Building \\greentext{tension and release} through arrangement and dynamics",
+      "Creating hooks that work in both club and radio contexts",
+      "Using vocal samples as melodic and rhythmic elements"
+    ],
+    "comparables": [
+      {
+        "song": "Wake Me Up",
+        "artist": "Avicii",
+        "reason": "Another Avicii production blending EDM with folk/pop elements and similar structure"
+      },
+      {
+        "song": "Don't You Worry Child",
+        "artist": "Swedish House Mafia",
+        "reason": "Progressive house with emotional chord progressions and big melodic hooks"
+      },
+      {
+        "song": "Clarity",
+        "artist": "Zedd ft. Foxes",
+        "reason": "Similar era progressive house with strong melodies and pop sensibility"
+      },
+      {
+        "song": "Titanium",
+        "artist": "David Guetta ft. Sia",
+        "reason": "EDM meets pop vocals with powerful chord progressions and drops"
+      },
+      {
+        "song": "Animals",
+        "artist": "Martin Garrix",
+        "reason": "Minimalist big room house showing evolution of the EDM sound Avicii pioneered"
+      }
+    ],
+    "theory_analysis": "\\textbf{Key:} E major - one of the brightest, most uplifting keys in music\n\n\\textbf{The Four-Chord Progression:} This track uses the most famous progression in modern pop/EDM: \\purple{I - V - IV - vi} (E major - B major - A major - C\\# minor). Here's the bass pattern:\n\\begin{itemize}\n\\item \\textbf{E} (beats 0-2) - the tonic, home base\n\\item \\textbf{B} (beat 2-3) - the dominant, creates forward motion\n\\item \\textbf{A} (beats 3-6) - the subdominant, stays here longer for stability\n\\item \\textbf{C\\#} (beats 6-8) - the relative minor, adds emotional depth\n\\end{itemize}\nThis is the same progression as countless hits (\"Don't Stop Believin',\" \"Let It Be,\" \"With or Without You,\" etc.). It works because it moves through \\greentext{tension and resolution} while staying singable and memorable.\n\n\\textbf{The Chords:} The actual chord voicings are simple triads played in a rhythmic pattern:\n\\begin{itemize}\n\\item \\textbf{E major:} E - G\\# - B (bright, open sound)\n\\item \\textbf{B major:} B - D\\# - F\\# (dominant energy)\n\\item \\textbf{A major:} A - C\\# - E (warm, familiar)\n\\item \\textbf{C\\# minor:} C\\# - E - G\\# (emotional contrast with the major chords)\n\\end{itemize}\n\n\\textbf{The Lead Melody:} Starts on E (the root) and uses notes from the E major scale. The melody is \\bluepurple{pentatonic-friendly}—mostly E, G\\#, B, C\\#—which makes it easy to sing and remember. It's not complex, but it doesn't need to be. The simplicity is the strength.\n\n\\textbf{The Sidechain Effect:} This is KEY to the EDM sound. The chords are \\orangetext{sidechained} to the kick drum, meaning every time the kick hits, the chords get quieter (duck down), then pump back up. This creates that rhythmic \"breathing\" effect that makes you want to move. It's not just a mixing trick—it's a compositional element that drives the groove.\n\n\\textbf{Why This Matters for Production:} \"Levels\" proves that \\textit{simplicity + execution = hit}. Four chords, one memorable melody, solid arrangement, and that signature sidechain compression—that's the foundation of modern EDM. You don't need 20 tracks of complex harmony. Focus on a strong progression, a catchy hook, and making every element serve the groove. This is the blueprint."
   }
 ]
 

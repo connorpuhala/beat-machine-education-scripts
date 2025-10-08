@@ -39,10 +39,40 @@ class MultiMIDIAnalyzer:
         self.midi_directory = midi_directory
         self.tracks = []
         self.max_length_beats = 0  # Track the longest MIDI file
+    
+    def _get_track_priority(self, filename: str) -> int:
+        """
+        Get sorting priority for a track based on filename.
+        Lower numbers appear first (on top in piano roll).
+        Order: leads/melodies → keys/chords → drums → bass
+        """
+        filename_lower = filename.lower()
+        
+        # Priority 1: Leads and melodies
+        if any(keyword in filename_lower for keyword in ['lead', 'melody', 'vocal', 'synth']):
+            return 1
+        
+        # Priority 2: Keys and chords
+        if any(keyword in filename_lower for keyword in ['keys', 'key', 'chord', 'piano', 'guitar']):
+            return 2
+        
+        # Priority 3: Drums and percussion
+        if any(keyword in filename_lower for keyword in ['drum', 'perc', 'kick', 'snare', 'hat']):
+            return 3
+        
+        # Priority 4: Bass
+        if 'bass' in filename_lower:
+            return 4
+        
+        # Default: put at the end
+        return 5
         
     def analyze(self) -> List[Track]:
         """Analyze all MIDI files in directory"""
-        midi_files = sorted(glob.glob(os.path.join(self.midi_directory, "*.mid")))
+        midi_files = glob.glob(os.path.join(self.midi_directory, "*.mid"))
+        
+        # Sort files by priority (leads → keys → drums → bass)
+        midi_files = sorted(midi_files, key=lambda f: (self._get_track_priority(os.path.basename(f)), os.path.basename(f)))
         
         if not midi_files:
             print(f"⚠️  No MIDI files found in {self.midi_directory}")
