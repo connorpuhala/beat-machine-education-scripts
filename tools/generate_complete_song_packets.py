@@ -12,6 +12,7 @@ import json
 import os
 import subprocess
 import re
+import shutil
 from pathlib import Path
 import sys
 
@@ -422,10 +423,14 @@ def generate_complete_song_packet(song_data, midi_folder_name=None, tex_output_d
     if tex_output_dir is None:
         tex_output_dir = PROJECT_ROOT / "packets" / "songs" / "_generated"
     if pdf_output_dir is None:
-        pdf_output_dir = PROJECT_ROOT / "packets" / "songs" / "_build"
+        pdf_output_dir = PROJECT_ROOT / "packets" / "songs" / "_build" / "pdf"
+    
+    # Also create temp directory for auxiliary files
+    temp_output_dir = PROJECT_ROOT / "packets" / "songs" / "_build" / "temp"
     
     os.makedirs(tex_output_dir, exist_ok=True)
     os.makedirs(pdf_output_dir, exist_ok=True)
+    os.makedirs(temp_output_dir, exist_ok=True)
     
     # Generate piano rolls section
     if midi_folder_name is None:
@@ -469,23 +474,27 @@ def generate_complete_song_packet(song_data, midi_folder_name=None, tex_output_d
     
     # Compile to PDF
     try:
+        # Compile with output to temp directory (don't use check=True, we'll check for PDF instead)
         subprocess.run(
-            ['xelatex', '-interaction=nonstopmode', '-output-directory', '../_build', tex_file.name],
+            ['xelatex', '-interaction=nonstopmode', '-output-directory', '../_build/temp', tex_file.name],
             cwd=str(tex_output_dir),
-            check=True,
             capture_output=True,
             text=True
         )
-        print(f"✓ Compiled PDF: {safe_filename}.pdf")
         
-        # Clean up auxiliary files
-        for ext in ['.aux', '.log', '.out']:
-            aux_file = pdf_output_dir / f"{safe_filename}{ext}"
-            if aux_file.exists():
-                aux_file.unlink()
+        # Move PDF to clean pdf directory
+        temp_pdf = temp_output_dir / f"{safe_filename}.pdf"
+        final_pdf = pdf_output_dir / f"{safe_filename}.pdf"
         
-        return True
-    except subprocess.CalledProcessError as e:
+        if temp_pdf.exists():
+            shutil.move(str(temp_pdf), str(final_pdf))
+            print(f"✓ Compiled PDF: {safe_filename}.pdf")
+            return True
+        else:
+            print(f"✗ Error compiling {safe_filename}: PDF not found at {temp_pdf}")
+            return False
+        
+    except Exception as e:
         print(f"✗ Error compiling {safe_filename}: {e}")
         return False
 
@@ -520,7 +529,8 @@ def main():
     
     print(f"\n✅ Successfully generated {success_count}/{len(songs)} complete song packets")
     print(f"📁 LaTeX files: packets/songs/_generated/")
-    print(f"📁 PDFs saved in: packets/songs/_build/\n")
+    print(f"📁 PDFs saved in: packets/songs/_build/pdf/")
+    print(f"📁 Build artifacts: packets/songs/_build/temp/\n")
 
 
 if __name__ == "__main__":
