@@ -157,6 +157,59 @@
       }
     ],
     "theory_analysis": "\\textbf{Key:} E major - one of the brightest, most uplifting keys in music\n\n\\textbf{The Four-Chord Progression:} This track uses the most famous progression in modern pop/EDM: \\purple{I - V - IV - vi} (E major - B major - A major - C\\# minor). Here's the bass pattern:\n\\begin{itemize}\n\\item \\textbf{E} (beats 0-2) - the tonic, home base\n\\item \\textbf{B} (beat 2-3) - the dominant, creates forward motion\n\\item \\textbf{A} (beats 3-6) - the subdominant, stays here longer for stability\n\\item \\textbf{C\\#} (beats 6-8) - the relative minor, adds emotional depth\n\\end{itemize}\nThis is the same progression as countless hits (\"Don't Stop Believin',\" \"Let It Be,\" \"With or Without You,\" etc.). It works because it moves through \\greentext{tension and resolution} while staying singable and memorable.\n\n\\textbf{The Chords:} The actual chord voicings are simple triads played in a rhythmic pattern:\n\\begin{itemize}\n\\item \\textbf{E major:} E - G\\# - B (bright, open sound)\n\\item \\textbf{B major:} B - D\\# - F\\# (dominant energy)\n\\item \\textbf{A major:} A - C\\# - E (warm, familiar)\n\\item \\textbf{C\\# minor:} C\\# - E - G\\# (emotional contrast with the major chords)\n\\end{itemize}\n\n\\textbf{The Lead Melody:} Starts on E (the root) and uses notes from the E major scale. The melody is \\bluepurple{pentatonic-friendly}—mostly E, G\\#, B, C\\#—which makes it easy to sing and remember. It's not complex, but it doesn't need to be. The simplicity is the strength.\n\n\\textbf{The Sidechain Effect:} This is KEY to the EDM sound. The chords are \\orangetext{sidechained} to the kick drum, meaning every time the kick hits, the chords get quieter (duck down), then pump back up. This creates that rhythmic \"breathing\" effect that makes you want to move. It's not just a mixing trick—it's a compositional element that drives the groove.\n\n\\textbf{Why This Matters for Production:} \"Levels\" proves that \\textit{simplicity + execution = hit}. Four chords, one memorable melody, solid arrangement, and that signature sidechain compression—that's the foundation of modern EDM. You don't need 20 tracks of complex harmony. Focus on a strong progression, a catchy hook, and making every element serve the groove. This is the blueprint."
+  },
+  {
+    "title": "Could You Be Loved",
+    "artist": "Bob Marley & The Wailers",
+    "bpm": "104",
+    "key": "D major",
+    "year": "1980",
+    "album": "Uprising",
+    "genre": "Reggae, Roots Reggae, Dancehall",
+    "artist_bio": "Bob Marley (1945-1981) was a Jamaican singer, songwriter, and guitarist who became the most influential figure in reggae music history. As the leader of Bob Marley \\& The Wailers, he brought reggae from Jamaica to the world stage, making it a global phenomenon.\n\nMarley's music combined reggae's distinctive rhythm (the \"one-drop\") with socially conscious lyrics about love, unity, justice, and resistance. His songs became anthems for peace and human rights movements worldwide. Beyond music, Marley became a cultural icon representing Jamaican culture, Rastafarianism, and the power of music as a force for social change.\n\nHis influence extends far beyond reggae—artists across hip-hop, rock, pop, and electronic music continue to sample, cover, and draw inspiration from his work. Albums like \\textit{Exodus} (1977) and \\textit{Legend} (1984, posthumous) remain some of the best-selling reggae albums of all time. Marley proved that music with a message could transcend borders and generations.",
+    "song_context": "\"Could You Be Loved\" was released in 1980 on the album \\textit{Uprising}, Bob Marley's final studio album released during his lifetime. The track marked a slight departure from traditional roots reggae by incorporating elements of disco and dance music, making it one of Marley's most radio-friendly and crossover-appealing songs.\n\nThe song became a massive international hit, reaching top 10 in multiple countries and introducing Marley's music to even wider audiences. Its uplifting message about love, self-worth, and not letting others bring you down resonated globally.\n\n\\textbf{Cultural Impact:} \"Could You Be Loved\" remains one of Marley's most covered and sampled tracks. Its blend of reggae groove with pop accessibility showed that reggae could work in mainstream contexts without losing its essential character. The track's message of self-love and resilience continues to inspire listeners decades later.\n\n\\textbf{Production Notes:} This track is a masterclass in reggae production fundamentals. The guitar \"skank\" (those rhythmic chord stabs on the offbeat), the one-drop drum pattern (emphasis on beat 3), the melodic bassline, and the call-and-response vocals all come together perfectly. The addition of clavinet (that funky keyboard sound) and the layered guitars create a rich, full arrangement that still feels spacious. It's proof that reggae's trademark groove can carry a song and make people move worldwide.",
+    "key_elements": [
+      "\\textbf{The Guitar Skank:} Those percussive, offbeat chord stabs—the signature reggae rhythm guitar sound",
+      "\\textbf{One-Drop Drum Pattern:} Classic reggae drums with heavy emphasis on beat 3, creating that laid-back, hypnotic groove",
+      "\\textbf{The Walking Bass:} A melodic bassline that moves through the chord changes, not just holding roots",
+      "\\textbf{Clavinet Texture:} That funky keyboard adding rhythmic and harmonic color (classic reggae/funk crossover sound)",
+      "\\textbf{Simple, Singable Melody:} Just a few notes (D, E, F\\#) that lock into the groove perfectly"
+    ],
+    "learning_points": [
+      "Understanding the \\purple{I-vi-IV-V progression} and why it works so universally",
+      "How to create \\bluepurple{reggae's signature rhythm} through guitar skank and one-drop drums",
+      "Building \\greentext{space and groove} through rhythmic emphasis and offbeat accents",
+      "Using simple melodic ideas that lock into the rhythm",
+      "Layering multiple guitars and keys while keeping the mix clean and spacious"
+    ],
+    "comparables": [
+      {
+        "song": "Three Little Birds",
+        "artist": "Bob Marley & The Wailers",
+        "reason": "Similar uplifting message, classic reggae groove, and accessible melody"
+      },
+      {
+        "song": "Redemption Song",
+        "artist": "Bob Marley & The Wailers",
+        "reason": "Another Marley track with a universal, timeless message and simple arrangement"
+      },
+      {
+        "song": "Is This Love",
+        "artist": "Bob Marley & The Wailers",
+        "reason": "Similar blend of reggae groove with pop accessibility and romantic themes"
+      },
+      {
+        "song": "Stir It Up",
+        "artist": "Bob Marley & The Wailers",
+        "reason": "Classic reggae production with melodic bass and guitar skank"
+      },
+      {
+        "song": "No Woman, No Cry",
+        "artist": "Bob Marley & The Wailers",
+        "reason": "Another universally beloved Marley track with simple chord progression and powerful message"
+      }
+    ],
+    "theory_analysis": "\\textbf{Key:} D major - bright, uplifting, and perfect for reggae's positive vibes\n\n\\textbf{The Chord Progression:} This track uses a classic four-chord cycle: \\purple{D - Bm - G - A} (I - vi - IV - V in D major). Let's break down how each chord functions:\n\\begin{itemize}\n\\item \\textbf{D major} (D - F\\# - A) - the tonic, home base, feels stable and bright\n\\item \\textbf{Bm} (B - D - F\\#) - the relative minor (vi), adds a touch of emotion while staying in the key\n\\item \\textbf{G major} (G - B - D) - the subdominant (IV), creates movement away from home\n\\item \\textbf{A major} (A - C\\# - E) - the dominant (V), creates tension that wants to resolve back to D\n\\end{itemize}\nThis I-vi-IV-V progression is one of the most versatile in all of music (think \"Stand By Me,\" \"Every Breath You Take,\" countless doo-wop and pop songs). It cycles smoothly and can repeat endlessly without getting boring.\n\n\\textbf{The Bassline:} The bass doesn't just sit on root notes—it \\bluepurple{walks} through the changes. You get:\n\\begin{itemize}\n\\item \\textbf{D} (beats 0-2) - establishes the D major tonic\n\\item \\textbf{B} (beats 4-6) - moves to the Bm chord root\n\\item \\textbf{G} (beats 8-11) - walks through G, hitting the IV chord\n\\item \\textbf{E to D} (beats 11-12) - uses E (from the A chord) as a \\greentext{connector note} that leads back to D\n\\end{itemize}\nNotice how the bass uses that E note to smoothly step down to D (falling a whole step). This kind of bass movement—using scale tones to connect chord roots—is essential to reggae's melodic approach.\n\n\\textbf{The Guitar Skank:} This is THE defining reggae rhythm technique. Instead of strumming on beats 1 and 3 (like rock), reggae guitars hit the \\orangetext{offbeats}—the \"and\" of each beat. This creates that characteristic bouncing, syncopated feel. Combined with the one-drop drum pattern (where the snare hits on beat 3, not 2 and 4), you get that laid-back, hypnotic groove.\n\n\\textbf{The Melody:} Super simple—just three notes (D, E, F\\#) from the D major scale. It's almost pentatonic in its simplicity. The melody doesn't try to be complex; it locks into the rhythm and becomes part of the groove. That's the reggae way: less is more, and everything serves the pocket.\n\n\\textbf{Why This Matters for Production:} Reggae teaches you that \\textit{rhythm is everything}. You don't need fancy chords or complex melodies. Four simple chords, a walking bassline, offbeat guitar skanks, and a solid one-drop drum pattern—that's the foundation. The magic is in the \\textit{feel}, the \\textit{space}, and how every element locks into the groove. This is essential listening for any producer who wants to understand how groove-based music works."
   }
 ]
 
